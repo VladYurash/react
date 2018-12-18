@@ -5,8 +5,13 @@ import App from './components/App';
 import Header from './components/header';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<Header />, document.getElementById('layout'));
+ReactDOM.render(
+  <div>
+    <App />
+    <Header />
+  </div>,
+  document.getElementById('root'));
+
 
 
 serviceWorker.unregister();
