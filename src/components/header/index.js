@@ -14,11 +14,11 @@ class Header extends Component {
 
         <nav className="header__nav">
           <ul>
-            <li><a className="header__link">About me</a></li>
-            <li><a className="header__link">Relationships</a></li>
-            <li><a className="header__link">Requirements</a></li>
-            <li><a className="header__link">Users</a></li>
-            <li><a className="header__link">Sign Up</a></li>
+            <li><a href="#" className="header__link">About me</a></li>
+            <li><a href="#" className="header__link">Relationships</a></li>
+            <li><a href="#" className="header__link">Requirements</a></li>
+            <li><a href="#" className="header__link">Users</a></li>
+            <li><a href="#" className="header__link">Sign Up</a></li>
           </ul>
         </nav>
 
@@ -30,7 +30,7 @@ class Header extends Component {
             <div className="header__user-logo">
                 <img src={user} alt="user"></img>
             </div>
-            <a className="header__user-exit"></a>
+            <a href="#" className="header__user-exit"></a>
 
         </div>
       </div>
